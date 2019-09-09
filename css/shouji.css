@@ -1,0 +1,428 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.MobilePage {
+  width: 10rem;
+}
+.home-page {
+  position: relative;
+}
+.passageway-section {
+  position: relative;
+  text-align: center;
+  background: url(../images/step01.jpg) no-repeat;
+  background-size: cover;
+  height: 10.9375rem;
+  width: 10rem;
+}
+.passageway-section .passageway-logo {
+  position: relative;
+  top: 0;
+  left: 0.625rem;
+  background: #35b558;
+  width: 3.125rem;
+  height: 1.40625rem;
+  display: block;
+  text-align: center;
+  border-bottom-right-radius: 0.46875rem;
+}
+.passageway-section .passageway-logo img {
+  width: 2.5rem;
+  margin-top: 0.234375rem;
+}
+.passageway-section h3 {
+  margin-top: 0.46875rem;
+  font-size: 0.390625rem;
+  height: 1.34375rem;
+  width: 6.25rem;
+  line-height: 1.34375rem;
+  color: #fff;
+  margin: 0.46875rem auto 0.15625rem auto;
+  border-top: 0.03125rem solid #ffffff;
+  border-bottom: 0.03125rem solid #ffffff;
+}
+.passageway-section h1 {
+  color: #fff;
+  font-size: 0.78125rem;
+}
+.passageway-section .passageway-form {
+  text-align: center;
+  margin-top: 1.5625rem;
+}
+.passageway-section .passageway-form .Tips {
+  font-size: 0.375rem;
+  color: #e72c2b;
+  text-align: right;
+  width: 8.59375rem;
+  margin: 0 auto;
+}
+.passageway-section .passageway-form input {
+  outline: none;
+  width: 8.59375rem;
+  height: 1.25rem;
+  margin: 0 auto;
+  display: block;
+  padding-left: 0.15625rem;
+  border: 0.015625rem solid #e72c2b;
+  border-radius: 0.15625rem;
+}
+.passageway-section .passageway-form .passageway-btn {
+  display: block;
+  width: 8.59375rem;
+  height: 1.25rem;
+  font-size: 0.59375rem;
+  margin: 0.46875rem auto 0 auto;
+  border-radius: 0.15625rem;
+  background: #e72c2b;
+  color: #fff;
+  line-height: 1.25rem;
+}
+.speed-section {
+  background-color: #101010;
+}
+.speed-section img {
+  display: block;
+  width: 100%;
+  height: 8.59375rem;
+}
+.teacher-section {
+  background: url(../images/step03.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 14.0625rem;
+}
+.teacher-section h2 {
+  font-size: 0.59375rem;
+  color: #ffffff;
+  padding: 0.625rem 0;
+}
+.teacher-section h2 span {
+  color: #35b558;
+  font-size: 0.78125rem;
+}
+.teacher-section .teacher-list .teacher-item {
+  justify-content: center;
+  font-size: 0.375rem;
+  color: #35b558;
+  display: flex;
+  margin-top: 0.46875rem;
+}
+.teacher-section .teacher-list img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.teacher-section .teacher-list .teacher-desc {
+  text-align: left;
+  padding-left: 0.46875rem;
+}
+.teacher-section .teacher-list .teacher-desc .teacher-name {
+  position: relative;
+  color: #fff;
+  font-size: 0.421875rem;
+  margin-bottom: 0.15625rem;
+}
+.teacher-section .teacher-list .teacher-desc .teacher-name span {
+  display: inline-block;
+  position: relative;
+  color: #000;
+  font-size: 0.3125rem;
+  background: #00ffa8;
+  width: 1.5625rem;
+  border-radius: 0.15625rem;
+  text-align: center;
+  margin-left: 0.234375rem;
+}
+.teacher-section .teacher-list .teacher-desc .teacher-amount {
+  color: #fff;
+}
+.video-section .video-title {
+  text-align: center;
+  font-size: 0.4375rem;
+  display: block;
+  height: 2.34375rem;
+  line-height: 2.34375rem;
+  color: #fff;
+  background-color: #101010;
+}
+.video-section .video-title span {
+  color: #35b558;
+}
+.video-section .video-container {
+  height: 7.8125rem;
+  background: url(../images/step04.jpg) no-repeat;
+  position: relative;
+  background-size: cover;
+}
+.video-section .video-container .video-mask {
+  position: absolute;
+  top: -0.3125rem;
+  display: none;
+}
+.video-section .video-container .video-mask video {
+  display: block;
+  width: 100%;
+  height: 7.8125rem;
+}
+.video-section .video-container .video-mask .video-close {
+  position: absolute;
+  width: 0.625rem;
+  top: 0.390625rem;
+  right: 0.0625rem;
+}
+.video-section .video-container .video-play {
+  width: 1.71875rem;
+  position: absolute;
+  top: 36%;
+  left: 39%;
+}
+.video-section .video-bottom {
+  background: #8861b1;
+  display: flex;
+  height: 1.5625rem;
+}
+.video-section .video-bottom .video-green {
+  background-color: #35b558;
+  width: 2.953125rem;
+  line-height: 1.5625rem;
+  display: inline-block;
+  text-align: center;
+}
+.video-section .video-bottom .video-green img {
+  width: 2.125rem;
+}
+.video-section .video-bottom .video-purple {
+  width: 7.0625rem;
+  font-size: 0.5625rem;
+  padding-left: 0.3125rem;
+  line-height: 1.5625rem;
+  display: inline-block;
+}
+.video-section .video-bottom .video-purple span {
+  color: #fff;
+}
+.procedure-section {
+  background: #112437;
+  padding-top: 0.625rem;
+}
+.procedure-section .procedure-title {
+  font-size: 0.546875rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: right;
+  display: block;
+  border-right: 0.09375rem solid #35b558;
+  margin-right: 0.625rem;
+  padding-right: 0.3125rem;
+}
+.procedure-section .procedure-title .procedure-title-green {
+  color: #ffeb3b;
+}
+.procedure-section .procedure-chart {
+  font-size: 0.40625rem;
+  background: url(../images/step05.png) no-repeat;
+  background-size: 3.59375rem;
+  margin-left: 1.34375rem;
+  margin-top: 0.78125rem;
+  position: relative;
+}
+.procedure-section .procedure-chart .procedure-chart-violet {
+  position: relative;
+  top: -0.625rem;
+  left: -2.109375rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  display: block;
+  background: #8861b1;
+  text-align: center;
+  line-height: 1.875rem;
+  color: #fff;
+}
+.procedure-section .procedure-chart li {
+  height: 2.03125rem;
+  margin-top: 0.546875rem;
+  margin-left: 1.5625rem;
+  color: #fff;
+}
+.procedure-section .procedure-chart .maobing {
+  margin-top: 0.78125rem;
+}
+.procedure-section .procedure-chart .procedure-chart-pink {
+  position: relative;
+  bottom: 0.9375rem;
+  left: -0.625rem;
+  width: 1.875rem;
+  height: 1.875rem;
+  border-radius: 50%;
+  background: #00ffa8;
+  color: #112437;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: 500;
+}
+.procedure-section .procedure-consultation {
+  text-align: center;
+}
+.procedure-section .procedure-consultation a {
+  display: inline-block;
+  width: 4.6875rem;
+  height: 1.09375rem;
+  background: #e72c2b;
+  color: #fff;
+  font-size: 0.390625rem;
+  border-radius: 0.15625rem;
+  text-align: center;
+  line-height: 1.09375rem;
+  margin-bottom: 1.09375rem;
+}
+.resources-section {
+  position: relative;
+  padding-top: 1.359375rem;
+  height: 8.90625rem;
+  background: url(../images/step06_2.jpg) no-repeat;
+  background-size: cover;
+}
+.resources-section .resources-title {
+  font-size: 0.53125rem;
+  color: #fff;
+  text-align: center;
+}
+.resources-section .resources-title span {
+  color: #35b558;
+}
+.resources-section .resources-consultation {
+  margin-top: 4.21875rem;
+  text-align: center;
+}
+.resources-section .resources-consultation a {
+  color: #fff;
+  width: 4.53125rem;
+  height: 0.875rem;
+  font-size: 0.53125rem;
+  text-align: center;
+  line-height: 0.875rem;
+  background: #e72c2b;
+  display: inline-block;
+  border-radius: 0.15625rem;
+}
+.school-section {
+  height: 21.875rem;
+  padding-top: 1.15625rem;
+  background: #101010;
+  text-align: center;
+}
+.school-section .school-title {
+  font-size: 0.5625rem;
+  font-weight: 600;
+  color: #00ffa8;
+}
+.school-section .school-explain {
+  height: 0.78125rem;
+  font-size: 0.40625rem;
+  margin-top: 0.265625rem;
+  color: #fff;
+}
+.school-section .school-explain img {
+  width: 1.65625rem;
+  height: 0.609375rem;
+  line-height: 0.78125rem;
+}
+.school-section .school-explain span {
+  display: inline-block;
+  padding-left: 0.171875rem;
+  height: 0.78125rem;
+  vertical-align: top;
+}
+.school-section .school-detailed-list {
+  margin-top: 1.15625rem;
+  display: flex;
+  justify-content: space-around;
+}
+.school-section .school-detailed-list .school-detailed-item {
+  font-size: 0.421875rem;
+  color: #fff;
+}
+.school-section .school-detailed-list .school-detailed-item img {
+  width: 2.046875rem;
+  height: 2.046875rem;
+}
+.school-section .school-detailed-list .school-detailed-item .detailed-item-desc span {
+  font-size: 0.5625rem;
+}
+.school-section .school-prize {
+  padding-top: 1.125rem;
+}
+.school-section .school-prize h3 {
+  font-size: 0.4375rem;
+  color: #35b558;
+  font-weight: 600;
+}
+.school-section .school-prize .school-prize-list {
+  margin-top: 0.71875rem;
+}
+.school-section .school-prize .school-prize-list .school-prize-item {
+  margin-top: 0.328125rem;
+  display: inline-block;
+}
+.school-section .school-prize .school-prize-list .school-prize-item img {
+  width: 4.03125rem;
+  height: 2.859375rem;
+}
+.school-section .school-prize .school-prize-list .school-prize-item .prize-item-desc {
+  font-size: 0.375rem;
+  color: #fff;
+}
+.bottom-fixed {
+  position: fixed;
+  bottom: 0;
+  width: 10rem;
+  height: 1.5625rem;
+  background: #000000d1;
+}
+.bottom-fixed .bottom-btn-container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.1875rem;
+}
+.bottom-fixed .bottom-btn-container img {
+  width: 4.03125rem;
+  height: 1.234375rem;
+}
+.bottom-fixed .bottom-btn-container span {
+  display: block;
+  width: 0.015625rem;
+  height: 1.234375rem;
+  border-right: 0.046875rem solid #112437;
+}
+.success-page {
+  background: url(../images/step08.jpg) repeat-y;
+  background-size: cover;
+  background-position: center;
+  height: 20rem;
+  text-align: center;
+  color: #e72c2b;
+  position: relative;
+}
+.success-page .success-container {
+  width: 10rem;
+  position: absolute;
+  top: 45%;
+}
+.success-page .success-container h1 {
+  font-size: 0.59375rem;
+}
+.success-page .success-container p {
+  font-size: 0.40625rem;
+  margin-top: 0.3125rem;
+}
